@@ -1,0 +1,119 @@
+:root{
+    --light-blue : #04C3FF;
+    --light-blue-shadow:  rgb(69 211 255 / 27%);
+    --sea-green: #0ABEAD;
+    --sea-green-dark: #0CBFAE;
+    --sea-green-extra-dark: #09BEAD;
+    --sea-green-shadow: rgba(11, 190, 173,0.4);
+    --header-hamburger-background : rgba(11, 190, 173,0.8);
+    --orange: #F57F17;
+    --dark-orange: #FF5823;
+    --orange-shadow: rgba(245, 127, 23,0.2);
+    --white: #ffffff;
+    --black: #333333;
+    --disabled-btn: #09bead7a;
+    --error-message:  #e44f4fd1;
+    --toast-error: #e44f4ffa;
+    --toast-shadow:  #9c9c9ce3;
+    --toast-success: #0CBFAE;
+    --loader-color: #0CBFAE
+  }
+  
+  .text-shadow{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slide-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 300ms ease;
+  }
+  
+  .opacity-transition {
+    transition: opacity 300ms ease;
+  }
+  .slide-headings {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    overflow: hidden;
+  }
+  
+  .overlay-content {
+    background: linear-gradient(144.8deg, #FBF0E5 20.68%, rgba(255, 255, 255, 0) 45.53%, #E6F3F1 89.83%), #FFFFFF;
+    width: 60%;
+    
+  }
+  
+  .slide-headings h1 {
+    cursor: pointer;
+  }
+  
+  .slide-heading.active {
+    color: blue;
+  }
+  
+  .slider {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .slide-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .slide p {
+    font-size: 16px;
+  }
+  
