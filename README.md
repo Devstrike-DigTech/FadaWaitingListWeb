@@ -1,70 +1,10 @@
-# Getting Started with Create React App
+#Fada  
+##Find Any Drug Anywhere
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The aim of the Fada waiting list website is to act as an existing tool to measure the success rate of the pre launch marketing or awareness creation of the platform to pharmacies. The website is a ‘waiting list’ website, akin to a ‘pre order’ in the launching of a product or commodity. The website aims to provide more information on the project, including details that could be omitted by the foot soldier marketers as well as serving as a more static source of information or source of truth for all parties involved.
+It contains official information about the project and its team as well as information on the product as concerns pharmacies. It details out the various features of the product and their benefits as well as the various subscription plans and the features.
+The website will also have a CTA (Call-To-Action) to the visiting pharmacy, to register to join the waiting list for the product, pending its release. To join the waiting list, the pharmacist fills out a form, entering details of their pharmacy including, the owner name, the contact information, as well as various branches, if applicable.
+Every entry to the waiting list is attached to a list which runs from Alpha Batch (A-List) to Rogue (Others-List). In total, there are 4 list batches and their benefits are detailed further down in this document. All pharmacies on the waiting list will be informed directly with a personal link to register, when the product is launched.
+When there is a definite launch date, the website will be populated with a countdown timer till the launch time.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The website is being created with ReactJs, Firebase Firestore backend, and other required libraries and frameworks, for Project Unisach under the authority of Devstrike Digital Limited.
